@@ -24,7 +24,7 @@ This project requires Django, MySQL, Redis, Django REST_Api and Celery.
 
 1. Clone this repository.
 ```bash
-git clone https://github.com/<username>/simpleblog.git
+[git clone https://github.com/Ritesh11111111111111111111/SimpleBlog.git]
 ```
 
 2. Create a virtual environment and activate it.
