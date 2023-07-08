@@ -73,6 +73,11 @@ Then, you can access the application at `localhost:8000`.
 - Retrieve an individual blog post: `GET /<int:pk>/`
 - Update a blog post: `PUT /<int:pk>/`
 - Delete a blog post: `DELETE /<int:pk>/`
+- List of all image posts: `GET image/`
+- Create a new image post: `POST image/`
+- Retrieve an individual image post: `GET image/<int:pk>/`
+- Update a image post: `PUT image/<int:pk>/`
+- Delete a image post: `DELETE image/<int:pk>/`
 
 ## Note
 Celery is used to handle the blog post scheduling feature. You need to have a running Redis process and start the celery worker to allow it to execute tasks.
